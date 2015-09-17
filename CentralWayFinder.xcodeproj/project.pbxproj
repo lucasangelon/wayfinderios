@@ -29,6 +29,7 @@
 		C06682921AC7DFA40064A6C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06682911AC7DFA40064A6C0 /* QuartzCore.framework */; };
 		C06682941AC7DFAD0064A6C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06682931AC7DFAD0064A6C0 /* SystemConfiguration.framework */; };
 		C06682991AC7E8ED0064A6C0 /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06682981AC7E8ED0064A6C0 /* MapTasks.swift */; };
+		F9C3B16E1BA807B3004178DE /* ListCampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3B16D1BA807B3004178DE /* ListCampusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		C06682931AC7DFAD0064A6C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C06682951AC7E0890064A6C0 /* GMapsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMapsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		C06682981AC7E8ED0064A6C0 /* MapTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapTasks.swift; path = GMapsDemo/MapTasks.swift; sourceTree = "<group>"; };
+		F9C3B16D1BA807B3004178DE /* ListCampusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListCampusViewController.swift; path = GMapsDemo/ListCampusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				C06682981AC7E8ED0064A6C0 /* MapTasks.swift */,
+				F9C3B16D1BA807B3004178DE /* ListCampusViewController.swift */,
 				C06682581AC7D5A10064A6C0 /* AppDelegate.swift */,
 				C066825A1AC7D5A10064A6C0 /* ViewController.swift */,
 			);
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06682991AC7E8ED0064A6C0 /* MapTasks.swift in Sources */,
+				F9C3B16E1BA807B3004178DE /* ListCampusViewController.swift in Sources */,
 				C066825B1AC7D5A10064A6C0 /* ViewController.swift in Sources */,
 				C06682591AC7D5A10064A6C0 /* AppDelegate.swift in Sources */,
 			);
